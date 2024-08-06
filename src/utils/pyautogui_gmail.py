@@ -26,7 +26,7 @@ async def login_via_bitwarden():
         chrome_options = uc.ChromeOptions()
         # global chrome_options
         # Add the extension to ChromeOptions
-        chrome_options.add_argument('--load-extension=./Extensions/bitwarden')
+        chrome_options.add_argument('--load-extension=./extensions/bitwarden')
         display = SmartDisplay(visible = 1, size=(1850, 1050))
         display.start()
 

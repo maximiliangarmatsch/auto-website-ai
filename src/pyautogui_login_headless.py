@@ -18,7 +18,7 @@ BITWARDEN_PASSWORD = os.getenv("BITWARDEN_PASSWORD")
 chrome_options = uc.ChromeOptions()
 
 # Add the extension to ChromeOptions
-chrome_options.add_argument('--load-extension=./Extensions/bitwarden')
+chrome_options.add_argument('--load-extension=./extensions/bitwarden')
 display = SmartDisplay(visible = 0, size=(1850, 1050))
 display.start()
 
