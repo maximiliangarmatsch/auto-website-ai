@@ -17,7 +17,7 @@ Install Python (newest version, currently 3.11.0)
 
 - https://www.python.org/downloads/
 
-## (MacOS Only) Pre-Setup
+## (MacOS Only) Pre-Setup Certificates
 
 ```shell
 #For Certificates
